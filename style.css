@@ -22,7 +22,7 @@
     border-radius: 5px;
     width: 100px;
     height: 30px;
-    margin-top: 5px;
+    margin-top: 17px;
 }
 .b3{
     background-color: rgba(35 , 160 , 248);
@@ -152,6 +152,7 @@
     padding-left: 110px !important;
     /* border: 1px solid black; */
     padding-top: 100px;
+    /* width: 80% !important; */
     position: relative;
 }
 .img1{
@@ -241,6 +242,88 @@
     margin-left: 140px;
     font-size: x-small;
 }
+.p{
+    text-align: center;
+    font-size: x-small;
+}
+.filledstar{
+    width: 20px;
+}
+.star{
+    width: 20px;
+}
+.practice{
+    text-align: center;
+    margin-top: 160px;
+    color: rgba(35 , 160 , 248);
+
+}
+.product{
+    text-align: center;
+    color: #011C39;
+}
+.news-input{
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 50px !important;
+    margin-bottom: 90px !important;
+}
+.textinput{
+    outline: none;
+    width: 50%;
+    /* border: none; */
+    background-color: #F9F9F9;
+}
+.subscribe{
+    background-color: rgba(35 , 160 , 248);
+    color: white;
+    width: 100px;
+    height: 26px;
+    /* margin-left: 5px; */
+    border: none;
+    outline: none;
+}
+.footer{
+    width: 100%;
+    background-color: #011C39;
+    padding-top: 50px;
+}
+.f1 h3 ,.f1 h6{
+    color: white;
+}
+.f1 h6{
+    margin-top: 20px;
+}
+i{
+    font-size: 1.8em;
+    margin-top: 40px;
+}
+li{
+    list-style-type: none;
+    color: white;
+    /* margin-top: 30px; */
+    padding: 7px;
+    padding-top: 15px;
+    font-size: large;
+}
+.f2 h3 , .f3 h3 , .f4 h3{
+    color: white;
+}
+.container-fluid{
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+::placeholder{
+    color: black;
+
+}
+
+
+
 
 
 
@@ -298,11 +381,24 @@
     .main2-1{
         margin-left: 20px !important;
         padding-left: 70px !important;
+        width: 90% !important;
     }
 }
 
 
-
+@media  screen and (max-width: 576px) and (min-width: 0px) {
+    .main2-1{
+        display: none;
+    }
+    .dummypara , .expert , .Practice{
+        margin-left: 0px !important;
+        text-align: center;
+    }
+    .f1 , .f2 , .f3 , .f4{
+        margin-top: 30px !important;
+        margin-left: 10px !important;
+    }
+}
 
 
 
